@@ -15,11 +15,23 @@ public class Client {
 //        thread2.start();
 
 //        " Printing all numers from 1 to 100:"
-         for(int i=0;i<100;i++) {
-             PrintNumber task = new PrintNumber(i);
-             Thread thread = new Thread(task);
-             thread.start();
-         }
+//         for(int i=0;i<100;i++) {
+//             PrintNumber task = new PrintNumber(i);
+//             Thread thread = new Thread(task);
+//             thread.start();
+//         }
+        System.out.println("Printing something in main thread: "+ Thread.currentThread().getName());
+
+         PrintHelloShivkumar task = new PrintHelloShivkumar();
+         Thread thread = new Thread(task);
+         thread.start();
+
+         // Printing numbers from 1 to 100
+        for(int i=1 ; i<=100 ; i++){
+            Print1to100 task1 = new Print1to100(i);
+            Thread thread1 = new Thread(task1);
+            thread1.start();
+        }
     }
 
 }
