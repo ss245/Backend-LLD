@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c353bca8-1826-4dd3-944a-c4b5a1ae2a3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/Threads/Print1to100.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/Threads/PrintHelloShivkumar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/Singleton/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/Singleton/DatabaseConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/Threads/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/Threads/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +65,7 @@
       <updated>1717847206087</updated>
       <workItem from="1717847208957" duration="8116000" />
       <workItem from="1721392674954" duration="3520000" />
+      <workItem from="1722857957670" duration="1054000" />
     </task>
     <servers />
   </component>
